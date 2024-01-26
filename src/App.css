@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+body {
+  background-image: url('./assets/image/background.jpg');
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar {
+  width: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login-card {
+  width: 31%;
+  position: absolute !important;
+  top: 25%;
+  left: 56%;
 }
 
-.App-link {
-  color: #61dafb;
+.login-form {
+  padding: 16px;
+  margin-left: 22px;
+  border: 1px solid #192852;
+  border-radius: 3%;
+  width: 90%;
+  margin-bottom: 10%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.avatar {
+  color: #000000 !important;
+  padding: 2px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  font-weight: 600 !important;
+  background: #ffffff !important;
+}
+
+.avatar-name .nav-link{
+  color: black !important;
+}
+
+.avatar .dropdown-toggle::after{
+  display: none;
+}
+
+.avatar .dropdown-menu{
+  left: -15px !important;
+}
+
+.btn-rad-50{
+  border-radius: 50% !important;
+}
+
+.height-70-vh{
+  height: 70vh;
+}
+
+.pagination-position{
+  position: absolute;
+  left: 20%;
+}
+
+.download-position{
+  position: absolute;
+  left: 70%;
+}
+
+.brd-left{
+  border-left: 1px solid black;
+}
+
+.card-img-center{
+  width: 600px;
+  height: 400px;
 }

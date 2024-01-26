@@ -1,0 +1,19 @@
+@media (min-width:320px) and (max-width:575px) {
+    .login-card {
+        width: 93%;
+        position: absolute !important;
+        top: 25%;
+        left: 4%;
+    }
+    .card-img-center{
+        width: 310px;
+        height: 350px;
+    }
+    .gif-col{
+        margin-top: 50% !important;
+    }
+    .download-position {
+        position: absolute;
+        left: 40%;
+    }
+  }

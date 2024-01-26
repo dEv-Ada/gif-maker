@@ -20,13 +20,13 @@ const Dashboard = () => {
     <div className="m-3">
       <div className="text-white bg-dark ps-2">
         <p className="d-flex">
-          <span>
+          <span className="pt-1 me-2">
             {CommonConstant.THE_NUMBER_OF_IMAGE_YOU_WANT_TO_ADD + ":  "}
           </span>
           {"  "}
           <button
             disabled={numberofImage <= 1}
-            className="btn-rad-50"
+            className="btn-rad-50 me-1"
             onClick={() => setNumberOfImage(numberofImage - 1)}
           >
             <FontAwesomeIcon icon={faMinus} />
@@ -34,7 +34,7 @@ const Dashboard = () => {
           <Button>{numberofImage}</Button>{" "}
           <button
             disabled={numberofImage > 4}
-            className="btn-rad-50"
+            className="btn-rad-50 ms-1"
             onClick={() => setNumberOfImage(numberofImage + 1)}
           >
             <FontAwesomeIcon icon={faPlus} />

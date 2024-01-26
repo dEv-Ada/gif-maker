@@ -16,4 +16,7 @@
         position: absolute;
         left: 40%;
     }
-  }
+    .height-70-vh {
+        height: 144vh;
+      }
+}

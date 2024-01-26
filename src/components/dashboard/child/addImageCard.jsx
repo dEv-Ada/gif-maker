@@ -74,7 +74,7 @@ const AddImageCard = ({ numberofImage }) => {
         <Card.Body>
           <Card.Text className="height-70-vh">
             <Row>
-              <Col>
+              <Col lg={6} md={12} sm={12} xs={12}>
                 <Card.Img variant="center" src={currImage} />
                 <div className=" pagination-position">
                   <p>
@@ -105,7 +105,7 @@ const AddImageCard = ({ numberofImage }) => {
                   </div>
                 </div>
               </Col>
-              <Col className="brd-left gif-col">
+              <Col className="brd-left gif-col" lg={6} md={6} sm={12} xs={12}>
                 <Card.Img variant="center" src={createdGif} />
                 <div>
                   <Form className="mt-2">

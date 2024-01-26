@@ -8,7 +8,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: white; 
+  background: white;
   border-radius: 10px;
 }
 
@@ -41,41 +41,41 @@ body {
   background: #ffffff !important;
 }
 
-.avatar-name .nav-link{
+.avatar-name .nav-link {
   color: black !important;
 }
 
-.avatar .dropdown-toggle::after{
+.avatar .dropdown-toggle::after {
   display: none;
 }
 
-.avatar .dropdown-menu{
+.avatar .dropdown-menu {
   left: -15px !important;
 }
 
-.btn-rad-50{
+.btn-rad-50 {
   border-radius: 50% !important;
 }
 
-.height-70-vh{
+.height-70-vh {
   height: 70vh;
 }
 
-.pagination-position{
+.pagination-position {
   position: absolute;
   left: 20%;
 }
 
-.download-position{
+.download-position {
   position: absolute;
   left: 70%;
 }
 
-.brd-left{
+.brd-left {
   border-left: 1px solid black;
 }
 
-.card-img-center{
-  width: 600px;
+.card-img-center {
+  width: 615px;
   height: 400px;
 }

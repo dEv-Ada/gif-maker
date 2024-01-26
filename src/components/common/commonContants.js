@@ -6,7 +6,8 @@ export const CommonConstant = {
   PASSWORD_PLACEHOLDER: "Enter your password",
   LOGIN: "Login",
   LOGOUT: "Logout",
-  THE_NUMBER_OF_IMAGE_YOU_WANT_TO_ADD: "The number of image you want to add",
+  THE_NUMBER_OF_IMAGE_YOU_WANT_TO_ADD:
+    "Number of image(s) you want to add (Default 3 images)",
   IMAGE: "Image",
   CREATE_GIF: "Create GIF",
   DOWNLAOD: "Download",
